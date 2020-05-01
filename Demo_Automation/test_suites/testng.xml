@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AUTOMATION">
+	
+	<parameter name="appUrl" value="http://automationpractice.com/index.php" />
+	<parameter name="username" value="manjesh5.yadav5@shopping.com" />
+	<parameter name="password" value="1234567" />
+	
+	<test name="SETUP_TEST">
+		<classes>
+			<class name="com.test.SetupTest" />
+		</classes>
+	</test>
+	<test name="CREATE_USER_TEST">
+		<classes>
+			<class name="com.test.CreateUserTest" />
+		</classes>
+	</test>
+	<!-- <test name="SIGN_OUT_TEST">
+		<classes>
+			<class name="com.test.SignOutTest" />
+		</classes>
+	</test>
+	<test name="LOGIN_TEST">
+		<classes>
+			<class name="com.test.LoginTest" />
+		</classes>
+	</test> -->
+	<test name="PLACE_ORDER_TEST">
+		<classes>
+			<class name="com.test.PlaceOrderTest" />
+		</classes>
+	</test>
+	
+</suite>

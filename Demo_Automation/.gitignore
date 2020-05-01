@@ -1,0 +1,13 @@
+.DS_Store
+.settings
+target
+generated
+.classpath
+.project
+.log
+
+.idea
+*.iml
+/bin/
+/test-output/*
+/log/*
